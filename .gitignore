@@ -1,0 +1,31 @@
+/dist
+/logs
+tests/
+/npm-debug.log
+**/node_modules
+package-lock.json
+
+#---------------------------------
+# Extensions
+#---------------------------------
+*.gz
+*.log
+*.log*
+*.rar
+*.tar
+
+
+#---------------------------------
+# IDE generated
+#---------------------------------
+.idea/
+.project
+*.iml
+
+
+#---------------------------------
+# OS generated
+#---------------------------------
+__MACOSX/
+.DS_Store
+Thumbs.db
